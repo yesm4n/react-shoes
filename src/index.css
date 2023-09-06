@@ -225,16 +225,17 @@ li {
   }
 
   .primary-nav.active {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
 
-    & ul {
-      flex-direction: column;
-    }
+  .primary-nav.active ul {
+    flex-direction: column;
+  }
 
-    & li {
-      color: var(--toggle);
-    }
+  .primary-nav.active li {
+    color: var(--toggle);
   }
 
   .brand.active {
